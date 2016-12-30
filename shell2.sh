@@ -21,17 +21,7 @@ sudo apt-get install libportaudio0 libportaudio2 libportaudiocpp0 portaudio19-de
 sudo apt-get install python-pyaudio
 sudo apt-get install mpg321
 sudo pip install pypiwin32
-sudo apt-get install apache2
-sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
-sudo mysql_install_db
-sudo /usr/bin/mysql_secure_installation
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
-sudo service apache2 restart
-sudo apt-get install perl
-sudo apt-get install python-software-properties
-sudo apt-add-repository ppa:brightbox/ruby-ng
-sudo apt-get update
-sudo apt-get install ruby1.9.3
+
 sudo apt-get install sphinxsearch
 sudo apt-get install mercurial python-dev python-numpy python-opengl \
     libav-tools libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev \
@@ -51,11 +41,5 @@ hg clone https://bitbucket.org/pygame/pygame
 cd pygame
 python3 setup.py build
 sudo python3 setup.py install
-python -m pygame.tests
-python -m pygame.examples/aacircle
-python -m pygame.examples/aliens
-python -m pygame.examples/freetype_misc
-python -m pygame.examples/glcube
-python -m pygame.examples/sound
-python -m pygame.examples/stars
+
 
