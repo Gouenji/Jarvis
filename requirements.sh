@@ -2,7 +2,6 @@ sudo apt-get install python-pip python-dev build-essential
 sudo apt-get install python3-pip python3-dev build-essential
 sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip
- 
 sudo pip install --upgrade virtualenv 
 sudo pip install pygsr
 sudo pip install pygst
@@ -14,7 +13,6 @@ sudo pip install pydispatch
 sudo pip install cssselect
 sudo pip install lxml
 sudo pip install PyDispatcher
-#pyowm
 sudo apt-get install python-pydispatch
 sudo apt-get install python-termcolor
 sudo apt-get install python-voluptuous
@@ -76,11 +74,5 @@ sudo apt-get update
 sudo apt-get python-xlib python-simplejson python-gtk2 python-gst0.1 \
 gstreamer0.10-pocketsphinx sphinx-common python-sphinxbase \
 python-pocketsphinx sphinxbase-utils git
-python -m pygame.tests
-python -m pygame.examples/aacircle
-python -m pygame.examples/aliens
-python -m pygame.examples/freetype_misc
-python -m pygame.examples/glcube
-python -m pygame.examples/sound
-python -m pygame.examples/stars
+
 
